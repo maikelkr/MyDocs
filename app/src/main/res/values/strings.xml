@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyDocs</string>
+    <string name="user">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="signin">Entrar</string>
+    <string name="add">Adicionar</string>
+    <string name="welcome">Seja bem-vindo!</string>
+    <string name="dont_have_account">Não tenho uma conta. Clique aqui para criar.</string>
+</resources>
