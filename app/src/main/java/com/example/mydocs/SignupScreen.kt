@@ -14,9 +14,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBars
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -61,7 +61,7 @@ fun Signup() {
             text = "Seja bem-vindo!",
             Modifier.padding(8.dp)
         )
-        TextField(
+        OutlinedTextField(
             value = username,
             onValueChange = { newValue ->
                 username = newValue
@@ -73,7 +73,7 @@ fun Signup() {
                 Text("Usuário")
             }
         )
-        TextField(
+        OutlinedTextField(
             value = password,
             onValueChange = {
                 password = it
