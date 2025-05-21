@@ -30,6 +30,7 @@
         <activity android:name="com.example.mydocs.DocumentCategories" />
         <activity android:name="com.example.mydocs.AddCategoryActivity" />
         <activity android:name="com.example.mydocs.EditCategoryActivity" />
+        <activity android:name="com.example.mydocs.SplashActivity" />
     </application>
 
 </manifest>
